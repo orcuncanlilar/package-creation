@@ -5,11 +5,11 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.4"
-REPO_NAME = "mongodbconnectorpkg"
-PKG_NAME= "databaseautomation"
-AUTHOR_USER_NAME = "sunnysavita10"
-AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
+__version__ = "0.0.1"
+REPO_NAME = "package-creation"
+PKG_NAME= "database_automation"
+AUTHOR_USER_NAME = "orcuncanlilar"
+AUTHOR_EMAIL = "orcuncanlilar@gmail.com"
 
 setup(
     name=PKG_NAME,
@@ -25,7 +25,7 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    )
+)
 
 
 
